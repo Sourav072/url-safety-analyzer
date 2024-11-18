@@ -7,6 +7,7 @@ Overall safety score with a visual representation (pie chart)
 Requirements
 Python 3.x: Ensure Python is installed on your system.
 Dependencies: Install the required Python libraries.
+
 Step-by-Step Setup
 1. Clone the Repository
 Clone the repository to your local machine:
@@ -15,6 +16,7 @@ bash
 Copy code
 git clone https://github.com/Sourav072/url-safety-analyzer.git
 cd url-safety-analyzer
+
 2. Set Up a vt.env File
 Create a .env file named vt.env in the project directory to store your VirusTotal API key:
 
@@ -43,6 +45,7 @@ If no requirements.txt is available, manually install the dependencies:
 bash
 Copy code
 pip install requests beautifulsoup4 whois matplotlib cryptography python-dotenv
+
 4. Run the Script
 Run the script to analyze a URL:
 
